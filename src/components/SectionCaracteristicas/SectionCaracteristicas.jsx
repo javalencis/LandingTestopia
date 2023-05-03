@@ -11,7 +11,7 @@ export const SectionCaracteristicas = () => {
                     <img src={imgCodeSmart} alt="" />
                 </div>
                 <h3>Codigo inteligente</h3>
-                <p>Get full visibility of how your code behaves and how the changes you make affect the rest of your code.</p>
+                <p>Obtenga una visión completa de cómo se comporta su código y de cómo los cambios que realiza afectan al resto de su código.</p>
             </div>
             <div>
                 <div className='imgContainer'>
@@ -19,7 +19,7 @@ export const SectionCaracteristicas = () => {
                     <img src={imgCreateValue} alt="" />
                 </div>
                 <h3>Efectividad</h3>
-                <p>Spend fewer hours writing questionable test cases and more time developing useful features for your users.</p>
+                <p>Dedique menos horas a escribir casos de prueba cuestionables y más tiempo en desarrollar funciones útiles para sus usuarios.</p>
             </div>
             <div>
                 <div className='imgContainer'>
@@ -27,7 +27,7 @@ export const SectionCaracteristicas = () => {
                     <img src={imgStayConf} alt="" />
                 </div>
                 <h3>Mantente confiado</h3>
-                <p>Unlike code coverage quotas, meaningful tests actually check your code’s functionality. So you get the confidence needed to commit.</p>
+                <p>Para codificar de manera inteligente, ser más eficaz, crear valor, y desplegar tranquilamente. Código, como esperas que funcione.</p>
             </div>
         </section>
     )

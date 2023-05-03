@@ -13,8 +13,8 @@ export const SectionInformacion = () => {
           Generando <br /> pruebas de calidad <br /> para desarrolladores ocupados
         </h2>
         <p>
-          Con Testopía, obtienes <strong>pruebas relevantes</strong>  <br /> sugeridas dentro de tu propio IDE, para codificar de manera intelingente, ser mas eficaz, crear valor, y desplegar tranquilamente.<br />
-          Codigo, como esperas que funcione.
+          Con Testopía, obtienes <strong>pruebas relevantes</strong>  <br /> sugeridas dentro de tu propio IDE, para codificar de manera inteligente, ser más eficaz, crear valor, y desplegar tranquilamente.<br />
+          Código, como esperas que funcione.
         </p>
         <button>
           Subscribete

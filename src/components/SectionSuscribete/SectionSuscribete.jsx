@@ -12,7 +12,7 @@ export const SectionSuscribete = () => {
             <div className="containerSuscribete">
                 <h2>Suscribete para la prueba gratuita</h2>
                 <p>
-                    Al suscribirte obtienes la prueba de nuestro software y la posibilidad de obtener descuentos exclusivos para la version premium.
+                    Al suscribirte obtienes la prueba de nuestro software y la posibilidad de obtener descuentos exclusivos para la versión premium.
                 </p>
                 <form onSubmit={handleOnSubmit}>
                     <label htmlFor="">
