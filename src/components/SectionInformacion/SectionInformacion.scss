@@ -1,22 +1,31 @@
 @import "../../variables";
+@import '../../media-queries';
 
-.SectionInformacion{
+
+.SectionInformacion {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     color: white;
     height: 100vh;
     width: 100%;
     position: relative;
     overflow: hidden;
     padding: 0 32px;
-    video{
+
+    .video-desktop {
         position: absolute;
+
         z-index: -100;
-        object-fit: contain;
+        object-fit: cover;
         object-position: center;
 
     }
-    .Informacion{
+
+    .video-mobile {
+        display: none;
+    }
+
+    .Informacion {
         width: 50%;
         height: 100%;
         padding: 20px;
@@ -25,13 +34,16 @@
         align-items: flex-start;
         justify-content: center;
         gap: 32px;
-        p{
+
+        p {
             font-size: 20px;
         }
-        h2{
+
+        h2 {
             font-size: 2.8rem;
         }
-        button{
+
+        button {
             background-color: $color-secundary;
             border: none;
             padding: 10px 20px;
@@ -40,7 +52,27 @@
             cursor: pointer;
         }
     }
-    .Animacion{
+
+    .Animacion {
         width: 50%;
+    }
+
+
+}
+
+@include tablet {
+    .SectionInformacion {
+        height: auto;
+        padding: 0;
+        .Animacion{
+            display: none;
+        }
+
+    
+        .Informacion {
+            width: 100%;
+            margin-top: 100px;
+
+        }
     }
 }

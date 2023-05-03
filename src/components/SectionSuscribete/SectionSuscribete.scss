@@ -1,6 +1,7 @@
 @import '../../variables';
+@import '../../media-queries';
 
-.SectionSuscribete{
+.SectionSuscribete {
     position: relative;
     width: 100%;
     height: calc(100vh - 64px);
@@ -8,7 +9,8 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    video{
+
+    video {
         width: 100%;
         position: absolute;
         top: 0;
@@ -17,13 +19,14 @@
         object-position: center;
         z-index: -10;
     }
-    .containerSuscribete{
+
+    .containerSuscribete {
         color: #ffffff;
         width: 60%;
         max-width: 800px;
         height: 400px;
 
-        background-color:   #717a9aef;
+        background-color: #717a9aef;
         text-align: start;
         border-radius: 30px;
         padding: 60px 120px;
@@ -31,36 +34,42 @@
         flex-direction: column;
         justify-content: center;
         gap: 24px;
-        h2{
+
+        h2 {
             color: $color-secundary;
             font-size: 32px;
         }
-        p{
+
+        p {
             font-size: 20px;
             margin-bottom: 40px;
         }
 
-        form{
+        form {
             width: 100%;
             display: grid;
             grid-template-columns: 2fr 1fr;
             align-items: center;
             position: relative;
-            span{
+
+            span {
                 position: absolute;
                 top: -20px;
 
             }
-           
-            input{
+
+            input {
                 background-color: #01012a;
                 border: 2px solid $color-primary;
                 width: 90%;
                 height: 48px;
                 border-radius: 10px;
-
+                color: #ffffff;
+                padding: 0 20px;
+                font-size: 20px;
             }
-            button{
+
+            button {
                 background-color: $color-secundary;
                 border: none;
                 cursor: pointer;
@@ -70,6 +79,41 @@
                 border-radius: 30px;
             }
         }
-        
+
+    }
+
+    @include tablet {
+        video {
+            height: 100%;
+            bottom: 0;
+
+        }
+
+        .containerSuscribete {
+            width: 90%;
+            height: auto;
+            padding: 30px 60px;
+
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                label {
+                    width: 100%;
+                }
+
+                input {
+                    width: 100%;
+                    border-radius: 30px;
+                }
+
+                button {
+
+                    margin-bottom: 20px;
+
+                }
+            }
+        }
     }
 }

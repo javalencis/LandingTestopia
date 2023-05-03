@@ -1,9 +1,13 @@
 import './SectionInformacion.scss'
 import VideoDesktop from '../../assets/videos/video-desktop.mp4'
+import VideoMobile from '../../assets/videos/video-mobile.mp4'
 export const SectionInformacion = () => {
   return (
     <section className="SectionInformacion">
-      <video src={VideoDesktop} controls={false} autoPlay loop muted />
+      <video className='video-desktop' src={VideoDesktop} controls={false} autoPlay loop muted />
+      <video className='video-mobile' controls={false} autoPlay loop muted playsInline >
+        <source src={VideoMobile} type='video/mp4'/>
+      </video>
       <div className="Informacion">
         <h2>
           Generando <br /> pruebas de calidad <br /> para desarrolladores ocupados
