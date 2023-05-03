@@ -6,14 +6,14 @@ export const SectionInformacion = () => {
       <video src={VideoDesktop} controls={false} autoPlay loop muted />
       <div className="Informacion">
         <h2>
-          Generating <br /> meaningful tests <br /> for busy devs
+          Generando <br /> pruebas de calidad <br /> para desarrolladores ocupados
         </h2>
         <p>
-          With TestopIA, you get non-trivial tests (and trivial, too!) <br /> suggested right inside your IDE, so you can code smart,<br /> create more value, and stay confident when you push.<br />
-          Code, as you meant it.
+          Con Testopía, obtienes <strong>pruebas relevantes</strong>  <br /> sugeridas dentro de tu propio IDE, para codificar de manera intelingente, ser mas eficaz, crear valor, y desplegar tranquilamente.<br />
+          Codigo, como esperas que funcione.
         </p>
         <button>
-          Subscribe
+          Subscribete
         </button>
       </div>
       <div className="Animacion">

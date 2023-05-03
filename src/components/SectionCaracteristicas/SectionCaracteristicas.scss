@@ -1,0 +1,39 @@
+@import '../../variables';
+.SectionCaracteristicas{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(57,126,150,1) 27%, rgba(51,111,137,1) 38%, rgba(2,0,36,1) 98%);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 100px 0;
+    div{
+        width: 25%;
+        text-align: center;
+        display: flex;
+        flex-direction:column;
+        gap: 20px;
+       
+    
+        .imgContainer{
+
+            width: 100%;
+            
+            img{
+              
+                height: 150px;
+                object-fit: contain;
+                object-position: center;
+                text-decoration-line: none;
+            }
+        }
+        h3{
+            color: $color-secundary;
+            font-size:24px ;
+        }
+        p{
+            color: #ffffff;
+            font-size: 20px;
+        }
+    }
+
+}
